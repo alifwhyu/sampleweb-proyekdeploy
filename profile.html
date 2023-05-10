@@ -1,19 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Profile</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <div class="profile">
-      <h1>Profil Saya</h1>
-      <img src="profile.png" alt="Profile Picture">
-      <h2>Name: Alif Wahyu Widi Adrian</h2>
-      <h2>Age: 21</h2>
-      <h2>Pekerjaan : Mahasiswa</h2>
-      <p>Halo, saya Alif, saya merupakan seorang mahasiswa yang sedang menempuh pendidikan di Kota Malang.</p>
-    </div>
-  </body>
+<head>
+	<title>My Profile</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0px 0px 10px #ccc;
+			border-radius: 10px;
+			text-align: center;
+		}
+		
+		h1 {
+			font-size: 36px;
+			margin-bottom: 20px;
+		}
+		
+		img {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			margin-bottom: 20px;
+			box-shadow: 0px 0px 10px #ccc;
+		}
+		
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+		
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		
+		li {
+			margin-right: 10px;
+			margin-bottom: 10px;
+		}
+		
+		a {
+			display: inline-block;
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px;
+			border-radius: 5px;
+			text-decoration: none;
+			transition: background-color 0.3s;
+		}
+		
+		a:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="https://storage.cloud.google.com/testbucket_projectdicoding/profile.png" alt="Profile Picture">
+		<h1>Alif Wahyu Widi Adrian</h1>
+		<p>Mahasiswa</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum vel justo id congue. Proin eget lacus purus. Praesent quis euismod quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec at metus non nibh lacinia varius.</p>
+		<ul>
+			<li><a href="https://www.linkedin.com/in/alif-wahyu-widi-adrian-a532441ba/">LinkedIn</a></li>
+		</ul>
+	</div>
+</body>
 </html>
